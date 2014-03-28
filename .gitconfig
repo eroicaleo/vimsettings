@@ -1,0 +1,9 @@
+[user]                                                                                                                                                                                     
+	name = Yang Ge
+	email = eroicaleo@gmail.com
+[core]
+	editor = vim
+[color]
+	ui = true
+[push]
+	default = matching
