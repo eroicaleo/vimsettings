@@ -14,8 +14,16 @@ alias mymodule='cd /home/yang/programming/kernel_module'
 alias ll='ls -l'
 
 alias irva-18='ssh -X 10.11.18.112 -l yangge'
+alias irva-19='ssh -X 10.11.21.144 -l yangge'
 alias pi='ssh 192.168.2.10 -l pi'
 alias mitbbs='luit -encoding gbk telnet mitbbs.com'
 alias boron="ssh -X 128.230.96.122 -l yzhang"
 alias carbon="ssh -X 128.230.96.123 -l yang"
 alias grep1="grep -Einr --color"
+alias em="emacs24-nox"
+
+##----------------------------------------------------------------------------------------------------
+## For algorithm 4ed
+##----------------------------------------------------------------------------------------------------
+export PATH=${PATH}:/home/yang/programming/algs4ed/bin
+export CLASSPATH=${CLASSPATH}:/home/yang/programming/algs4ed/algs4.jar:/home/yang/programming/algs4ed/stdlib.jar
